@@ -7,8 +7,6 @@
     --pallete-ltyell: #ffe6a1;
     --pallete-twhite: #dcddde;
     --pallete-bwhite: #8e9297;
-    
-    
 }
 
 .pallete-yellow { background-color: var(--pallete-yellow); }
