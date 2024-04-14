@@ -1,22 +1,26 @@
 <!-- index.html -->
 <!DOCTYPE html>
 <html>
-<head>
-    <title>My Website</title>
-    <!-- Other head content -->
-</head>
-<body>
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script>
-        // Using jQuery
-        $(document).ready(function() {
-            $('#header-container').load('global/header.html');
-        });
-    </script>
 
+<head>
+	<title>Alva Majo</title>
+	<link rel="stylesheet" type="text/css" href="global/style.css" />
+</head>
+
+<!-- Load header -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$('#header-container').load('global/header.html');
+	});
+</script>
+
+
+<body>
     <div id="header-container"></div>
     <p>Main content of the page.</p>
     <!-- Other content -->
-    aaa56
+    test2
 </body>
+
 </html>
